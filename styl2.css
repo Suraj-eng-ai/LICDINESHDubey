@@ -1,0 +1,118 @@
+@media only screen and (max-width: 600px) {
+    .mainconatiner {
+        flex-wrap: wrap;
+        width: 370px;
+        border: 5px solid red;
+        display: flex;
+        padding: 22px;
+        padding-top: 7px;
+        position: relative;
+        left: 0;
+        height: 63px;
+        background-color: blue;
+        border-radius: 10px;
+        background-attachment: local;
+    }
+    
+.logo {
+    height: 202px;
+    flex-wrap: wrap;
+    /* border: 3px solid red; */
+    display: flex;
+    position: relative;
+    width: 18px;
+    /* justify-content: space-between; */
+}
+.logocontain>h2 {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+    width: 278px;
+}
+.whatsapplogo{
+    display: none;
+}
+.navbar {
+    background-color: #4f4fa3;
+    border: 2px solid rgb(8, 8, 33);
+    padding: 2px;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imglogo1{
+    margin: 10px;
+}
+.lastlogo {
+    bottom: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+    /* left: 40%; */
+    margin-bottom: 0px;
+    /* width: 293px; */
+    justify-content: space-between;
+    /* height: 300px; */
+}
+.marquetag{
+    left: 10px;
+    position: relative;
+    border-radius: 10px;
+display: flex;
+width: 350px;
+color: rgb(242, 242, 30);
+background: #400606;
+/* border: 10px solid red; */
+}
+.image2 {
+    /* width: %; */
+    height: 260px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contsiner3 {
+    position: relative;
+    top:803px;
+    margin-top: 20px;
+    width: 354px;
+    height: 200px;
+    display: flex;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box1{
+    margin-top: 0px;
+    background-color:skyblue;
+    width: 400px;
+    border-radius: 10px;
+    height: 100px;
+    border: 2px solid blue;
+    box-shadow: 10px 5px 5px rgb(27, 192, 198);
+    display: flex;
+    transition: width 1s, height .5s;
+}
+footer{
+    position: relative;
+    top: 1000px;
+}
+.container{
+    text-align: center;
+    }
+    .imagesetion {
+        text-align: center;
+        width: 216px;
+        height: 290px;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 40px;
+    }
+  }
